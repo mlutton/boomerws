@@ -1,0 +1,24 @@
+{
+  "name": "boomerws",
+  "version": "0.0.0",
+  "description": "Mock API Server",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "cake test"
+  },
+  "author": "Mike Lutton",
+  "license": "ISC",
+  "dependencies": {
+    "coffee-script-redux": "2.0.0-beta7",
+    "express": "^3.5.1",
+    "underscore": "~1.6.0"
+  },
+  "devDependencies": {
+    "chai": "~1.0.3",
+    "mocha": "~1.1.0",
+    "assertive": "~1.3.2"
+  }
+}
